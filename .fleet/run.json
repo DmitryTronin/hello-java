@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "command",
+            "name": "run java app",
+            "program": "java",
+            "args": ["-cp", "src/main/java", "Hello"],
+        },
+        {
+            "type": "command",
+            "name": "compile",
+            "program": "javac",
+            "args": ["./src/main/java/Hello.java"],
+        },
+        
+        
+    ]
+}
